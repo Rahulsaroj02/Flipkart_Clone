@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+    --main-bg-color: rgb(40, 119, 221);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'lato', sans-serif;
+}
+nav{
+    display: flex;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 120px;
+    padding: 0 3px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 59px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.search{
+    
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 30px;
+    padding: 0 12px;
+}
+.search button{
+    font-family: 'lato', sans-serif;
+    font-weight: 900;
+}
+.slider{
+    width: 80vw;
+    margin:12px auto;
+    overflow: scroll;
+    
+}
+.card{
+    margin: 40px auto;
+    max-width: 90vw
+
+
+}
+
+.cards{
+    display: flex;
+    overflow: scroll;
+    
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'lato', sans-serif;
+    margin: 0 15px;
+}
+.main{
+    min-height: calc(100vh - 60px - 12vh);
+}
+footer{
+    background-color: var(--main-bg-color);
+    height: 12vh;
+    color: white;
+    
+}
