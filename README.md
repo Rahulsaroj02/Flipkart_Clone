@@ -20,14 +20,23 @@ This is a simple, responsive HTML and CSS-based web page simulating an **e-comme
 mycart/
 │
 ├── index.html # Main HTML file (you may rename as needed)
+
 ├── css/
+
 │ ├── style.css # Main styling (you can expand here)
+
 │ ├── utils.css # Utility classes (flex, buttons, margins, etc.)
+
 │ └── responsive.css # Responsive layout for smaller screens
+
 ├── img/
+
 │ └── image.png # Site logo or any placeholder image
+
 ├── about.html # About page (not fully implemented)
+
 ├── contact.html # Contact page (not fully implemented)
+
 └── home.html # Homepage duplicate or landing
 
 
