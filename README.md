@@ -31,9 +31,7 @@ mycart/
 
 │ └── responsive.css # Responsive layout for smaller screens
 
-├── img/
-
-│ └── image.png # Site logo or any placeholder image
+├── logo.png
 
 ├── about.html # About page (not fully implemented)
 
