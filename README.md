@@ -18,7 +18,9 @@ This is a simple, responsive HTML and CSS-based web page simulating an **e-comme
 ## 🗂️ Project Structure
 
 mycart/
+
 │
+
 ├── index.html # Main HTML file (you may rename as needed)
 
 ├── css/
